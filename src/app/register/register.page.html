@@ -1,10 +1,13 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar color="secondary">
     <ion-title>Registro</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding class="form-content">
+  <div style="max-width: 100%; margin: auto">
+    <img src="assets/imgs/register.png" />
+  </div>
   <form class="form" [formGroup]="validations_form" (ngSubmit)="tryRegister(validations_form.value)">
     <ion-item>
       <ion-label position="floating" color="primary">Email</ion-label>

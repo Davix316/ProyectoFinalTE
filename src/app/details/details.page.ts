@@ -64,8 +64,8 @@ export class DetailsPage implements OnInit {
 
   async delete() {
     const alert = await this.alertCtrl.create({
-      header: 'Confirm',
-      message: 'Do you want to delete ' + this.item.title + '?',
+      header: 'Confirmar',
+      message: '¿Seguro que quieres eliminar la lista ' + this.item.title + '?',
       buttons: [
         {
           text: 'No',
@@ -74,7 +74,7 @@ export class DetailsPage implements OnInit {
           handler: () => {}
         },
         {
-          text: 'Yes',
+          text: 'Si',
           handler: () => {
             this.firebaseService.deleteTask(this.item.id)
             .then(
@@ -115,10 +115,10 @@ export class DetailsPage implements OnInit {
 
   async uploadImageToFirebase(image){
     const loading = await this.loadingCtrl.create({
-      message: 'Please wait...'
+      message: 'Por favor espera...'
     });
     const toast = await this.toastCtrl.create({
-      message: 'Image was updated successfully',
+      message: 'La imagen se cargo con exito',
       duration: 3000
     });
     this.presentLoading(loading);

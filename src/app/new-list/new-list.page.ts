@@ -78,10 +78,10 @@ export class NewListPage implements OnInit {
 
   async uploadImageToFirebase(image){
     const loading = await this.loadingCtrl.create({
-      message: 'Please wait...'
+      message: 'Por favor espere...'
     });
     const toast = await this.toastCtrl.create({
-      message: 'Image was updated successfully',
+      message: 'Imagen subida con exito',
       duration: 3000
     });
     this.presentLoading(loading);

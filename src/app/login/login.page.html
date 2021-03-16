@@ -1,10 +1,16 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title>INGRESAR</ion-title>
+    <ion-title>Iniciar Sesión</ion-title>
   </ion-toolbar>
 </ion-header>
 
+
+
 <ion-content padding class="form-content">
+  <div style="max-width: 90%; margin: auto; padding-top: 13px;">
+    <img src="assets/imgs/list.png" />
+  </div>
+    
   <form class="form" [formGroup]="validations_form" (ngSubmit)="tryLogin(validations_form.value)">
     <ion-item>
       <ion-label position="floating" color="primary">Email</ion-label>
@@ -28,11 +34,11 @@
         </div>
       </ng-container>
     </div>
-    <ion-button class="submit-btn" expand="block" type="submit" [disabled]="!validations_form.valid">INGRESAR</ion-button>
+    <ion-button class="submit-btn" expand="block" type="submit" [disabled]="!validations_form.valid" color="tertiary">INGRESAR</ion-button>
     <label class="error-message">{{errorMessage}}</label>
   </form>
   
   <p class="go-to-register">
-    No tienes una cuenta? <a (click)="goRegisterPage()">Crear una cuenta.</a>
+    No tienes una cuenta? <a (click)="goRegisterPage()" color="tertiary">Crear una cuenta.</a>
   </p>
 </ion-content>
