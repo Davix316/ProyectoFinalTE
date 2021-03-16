@@ -1,4 +1,4 @@
-import { DetailsPageRoutingModule } from './details-routing.module';
+//import { DetailsPageRoutingModule } from './details-routing.module';
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -26,7 +26,7 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     ReactiveFormsModule,
-    DetailsPageRoutingModule,
+    //DetailsPageRoutingModule,
     RouterModule.forChild(routes)
   ],
   declarations: [DetailsPage],

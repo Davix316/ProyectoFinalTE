@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AngularFireAuth } from '@angular/fire/auth';
-//import { auth } from 'firebase/app';
+import 'firebase/app';
 
 import { Router } from '@angular/router';
 

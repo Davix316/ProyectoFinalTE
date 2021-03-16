@@ -32,7 +32,7 @@ export class HomePage implements OnInit {
     const loading = await this.loadingCtrl.create({
       message: 'Please wait...'
     });
-    //this.presentLoading(loading);
+    this.presentLoading(loading);
     this.route.data.subscribe(routeData => {
       routeData['data'].subscribe(data => {
         loading.dismiss();

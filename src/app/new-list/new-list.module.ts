@@ -1,4 +1,4 @@
-import { NewListPageRoutingModule } from './new-list-routing.module';
+//import { NewListPageRoutingModule } from './new-list-routing.module';
 
 import { NgModule } from '@angular/core';
 import { CommonModule, Location } from '@angular/common';
@@ -20,7 +20,7 @@ const routes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     IonicModule,
-    NewListPageRoutingModule,
+    //NewListPageRoutingModule,
     RouterModule.forChild(routes)
   ],
   providers: [Location],

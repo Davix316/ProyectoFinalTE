@@ -19,10 +19,12 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 
 import { environment } from '../environments/environment';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+//import { NewListPageModule } from './new-list/new-list.module';
+//import { NewListPage } from './new-list/new-list.page';
 
 @NgModule({
   declarations: [AppComponent],
-  entryComponents: [],
+  //entryComponents: [NewListPage],
   imports: [
     BrowserModule, 
     IonicModule.forRoot(), 

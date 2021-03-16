@@ -32,16 +32,15 @@ export class AuthService {
   }
 
   doLogout(){
-    return new Promise<void>((resolve, reject) => {
-      if (this.afAuth.currentUser) {
-        this.afAuth.signOut()
-          .then(() => {
-            console.log("LOG Out");
-            resolve();
-          }).catch((error) => {
-            reject();
-          });
-      }
+    return new Promise((resolve, reject) => {
+      this.afAuth.signOut()
+      .then(() => {
+        this.firebaseService.unsubscribeOnLogOut();
+        resolve;
+      }).catch((error) => {
+        console.log(error);
+        reject();
+      });
     })
   }
 }
