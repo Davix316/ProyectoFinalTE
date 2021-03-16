@@ -1,23 +1,16 @@
-import { HomePageRoutingModule } from './home-routing.module';
-
+import { NewListPageRoutingModule } from './new-list-routing.module';
 
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, Location } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
-
 import { IonicModule } from '@ionic/angular';
-
-import { HomePage } from './home.page';
-import { HomeResolver } from './home.resolver';
+import { NewListPage } from './new-list.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomePage,
-    resolve: {
-      data: HomeResolver
-    }
+    component: NewListPage
   }
 ];
 
@@ -27,12 +20,10 @@ const routes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    NewListPageRoutingModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [HomePage],
-  providers: [
-    HomeResolver
-  ]
+  providers: [Location],
+  declarations: [NewListPage]
 })
-export class HomePageModule {}
+export class NewListPageModule {}
