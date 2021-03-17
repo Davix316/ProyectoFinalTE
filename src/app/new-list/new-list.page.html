@@ -26,8 +26,8 @@
       <ion-input type="text" formControlName="title"></ion-input>
     </ion-item>
     <ion-item>
-      <ion-label position="floating" color="medium">Producto 1</ion-label>
-      <ion-input type="text" formControlName="description"></ion-input>
+      <ion-label position="floating" color="medium">Ingresa tus productos</ion-label>
+      <ion-textarea type="text" formControlName="description" rows="9"></ion-textarea>
     </ion-item>
     <ion-button class="submit-btn" expand="block" color="success" type="submit" [disabled]="!validations_form.valid">Crear Lista</ion-button>
   </form>

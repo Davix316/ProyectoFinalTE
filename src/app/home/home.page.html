@@ -11,8 +11,8 @@
 
 <ion-content *ngIf="items" class="list-mini-content" padding color="tertiary">
   <div *ngIf="items.length > 0" class="list-mini">
-    <ion-list style=" background-image: url('https://cdn.pixabay.com/photo/2019/04/14/10/27/book-4126483_1280.jpg');">
-      <ion-item *ngFor="let item of items" [routerLink]="['/details', item.payload.doc.id]">
+    <ion-list style=" background-image: url('https://cdn.pixabay.com/photo/2013/07/13/12/50/basket-160442_1280.png'); background-size: 100%;">
+      <ion-item *ngFor="let item of items" [routerLink]="['/details', item.payload.doc.id]" style="opacity: 0.9;">
         <ion-thumbnail slot="start">
           <img [src]="item.payload.doc.data().image">
         </ion-thumbnail>

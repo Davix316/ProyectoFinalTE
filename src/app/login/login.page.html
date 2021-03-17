@@ -34,11 +34,11 @@
         </div>
       </ng-container>
     </div>
-    <ion-button class="submit-btn" expand="block" type="submit" [disabled]="!validations_form.valid" color="tertiary">INGRESAR</ion-button>
+    <ion-button class="submit-btn" expand="block" type="submit" [disabled]="!validations_form.valid" color="success">INGRESAR</ion-button>
     <label class="error-message">{{errorMessage}}</label>
   </form>
   
   <p class="go-to-register">
-    No tienes una cuenta? <a (click)="goRegisterPage()" color="tertiary">Crear una cuenta.</a>
+    No tienes una cuenta? <a (click)="goRegisterPage()" color="success">Crear una cuenta.</a>
   </p>
 </ion-content>
