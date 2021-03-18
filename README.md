@@ -51,5 +51,5 @@ la parte superior derecha y acceder al botón +, de esta manera les aparece esta
 Cuando el cliente haga clic en VER LISTA, se redirige a esta interfaz, la misma que muestra el título, los productos y dos botones, uno que sirve
 para guardar los cambios que el usuario pudiera hacer, y el otro para eliminar toda la lista de su listado.
 
-![Screenshot](detalle.JPG)
+![Screenshot](detalle.jfif)
 
