@@ -36,5 +36,5 @@ Ya que se creó y configuró un icono y un splash screen, al momento de instalar
 
 
 
-### Referencias ###
+### Referencias ### :link:
 - https://ionicthemes.com/tutorials/about/building-a-ionic-firebase-app-step-by-step 
