@@ -17,7 +17,7 @@
 ## Partes Principales del código :wrench:
 
 
-## Interfaces principales de la APP:
+## Interfaces principales de la APP: :iphone:
 ### Icono y Splash Screen
 Ya que se creó y configuró un icono y un splash screen, al momento de instalar y arrancar la APP, aparecerán estas imágenes.
 | **Icono**:radio_button:| **Splah Screen**:speech_balloon:| 
@@ -32,9 +32,10 @@ Ya que se creó y configuró un icono y un splash screen, al momento de instalar
 | **Lista de Compras** :moneybag: | **Nueva Lista**:heavy_plus_sign: | **Detalles** :memo:|
 | :---        |     :---     |          :--- |
 | Cuando el usuario haya ingresado a su cuenta, le aparecerá sus listas de compras, si ya las hubiese ingresado, caso contrario se muestra un mensaje que indica: Por favor crea tu primera lista, del mismo modo si el usuario tiene listas creadas anteriormente, aparecerán todas con un botón al lado derecho, para ver los detalles de dicha lista. Cada recalcar que las listas solo serán las que el usuario haya registrado y le pertenescan.| Si el usuario acaba de registrarse, tendrá que empezar creando una nueva lista con el título y productos correspondientes, entonces debe ir a la parte superior derecha y acceder al botón +, de esta manera les aparece esta interfaz en la cual pueden agregar una nueva lista. | Cuando el cliente haga clic en VER LISTA, se redirige a esta interfaz, la misma que muestra el título, los productos y dos botones, uno que sirve para guardar los cambios que el usuario pudiera hacer, y el otro para eliminar toda la lista de su listado.|
-| ![Screenshot](lista.jfif) ![Screenshot](sinlista.jfif)| ![Screenshot](nuevo.jfif)|![Screenshot](detalle.jfif)  |
+| ![Screenshot](lista.jfif) | ![Screenshot](nuevo.jfif)|![Screenshot](detalle.jfif)  |
+|![Screenshot](sinlista.jfif)|
 
 
 
-### Referencias ### :link:
+### Referencias :link:
 - https://ionicthemes.com/tutorials/about/building-a-ionic-firebase-app-step-by-step 
