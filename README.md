@@ -18,20 +18,20 @@
 ### Icono y Splash Screen
 Ya que se creó y configuró un icono y un splash screen, al momento de instalar y arrancar la APP, aparecerán estas imágenes.
 
-![Screenshot](icono.JPG) ![Screenshot](splash.JPG)
+![Screenshot](icono.jfif)    ![Screenshot](splash.jfif)
 
 ### Inicio de sesión
 Una vez el usuario tenga una cuenta podrá iniciar sesión con sus credenciales, es importante recordar que las credenciales son el correo
 y contraseña que hayan sido proporcionados en el registro. El botón de Ingresar no se habilitará hasta que los campos hayan sido llenados
 correctamente, tanto el tipo de texto como las credenciales correctas.
 
-![Screenshot](login.JPG)
+![Screenshot](login.jfif)
 
 ### Registro
 Si el usuario no tiene una cuenta, tiene que acceder a esta parte, donde se registrará con un correo y una contraseña creada en ese momento,
 ambos campos tienen que cumplir ciertas reglas para que el registro pueda realizarse de manera correcta.
 
-![Screenshot](registro.JPG)
+![Screenshot](registro.jfif)
 
 ### Lista de Compras
 Cuando el usuario haya ingresado a su cuenta, le aparecerá sus listas de compras, si ya las hubiese ingresado, caso contrario se muestra un 
@@ -39,13 +39,13 @@ mensaje que indica: Por favor crea tu primera lista, del mismo modo si el usuari
 botón al lado derecho, para ver los detalles de dicha lista. Cada recalcar que las listas solo serán las que el usuario haya registrado y le
 pertenescan.
 
-![Screenshot](lista.JPG)  ![Screenshot](sinlista.JPG)
+![Screenshot](lista.jfif)     ![Screenshot](sinlista.jfif)
 
 ### Nueva Lista
 Si el usuario acaba de registrarse, tendrá que empezar creando una nueva lista con el título y productos correspondientes, entonces debe ir a 
 la parte superior derecha y acceder al botón +, de esta manera les aparece esta interfaz en la cual pueden agregar una nueva lista.
 
-![Screenshot](nuevo.JPG)
+![Screenshot](nuevo.jfif)
 
 ### Detalles
 Cuando el cliente haga clic en VER LISTA, se redirige a esta interfaz, la misma que muestra el título, los productos y dos botones, uno que sirve
