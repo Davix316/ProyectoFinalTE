@@ -1,7 +1,7 @@
 # Proyecto Final Tópicos Especiales
 ##  Integrantes: Amagua Jhoel - Curipoma David
 ### Link del video en OneDrive: :movie_camera:
-[![Watch the video](https://github.com/Davix316/ProyectoFinalTE/blob/main/images/video.PNG)](https://epnecuador-my.sharepoint.com/:v:/g/personal/jorge_amagua01_epn_edu_ec/ERmef_QkDp9Ls-g1bXL3AecBQLQ2WWl9Pd0BYsd4jUxqqw?e=5exkgi)
+[![Watch the video](https://github.com/Davix316/ProyectoFinalTE/blob/main/images/video.PNG)](https://epnecuador-my.sharepoint.com/:v:/g/personal/jorge_amagua01_epn_edu_ec/ERmef_QkDp9Ls-g1bXL3AecBip2dCllhEnJY9b-0addqyw?e=DjCvBg)
  
 ### En el presente repositorio se encuentra el código del proyecto final realizado para la materia de Tópicos Especiales:
 
