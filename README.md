@@ -15,7 +15,32 @@
 - La APK de la aplicación esta firmada y desplegada en Google.
 ```
 ## Partes Principales del código :wrench:
+### Servicios
+Se crearon 2 servicios, el auth.service el cuál contiene todo lo relacionado con respecto a la autenticación: funciones resgister, login y logout.
+| **auth.service**|
+| ------------- |
+|![Screenshot](authservices.jfif) |
 
+Y el firebase.service, el cuál contiene todo lo realacionado con respecto al CRUD: funciones create, get, update y delete. Utilizamos snapshotChange el cual permite cargar la información y nos otorga la ID del usuario autenticado en ese momento.
+| **firebase.service**|
+| ------------- |
+|![Screenshot](firebaseservices.jfif) |
+
+También tenemos 2 funciones que nos ayudan en la carga de archivos desde nuestro dispositivo móvil: funciones encodeImage que transforma la URI proveniente de la herramienta imagepicker de cordova y la funcion uploadImage que carga la imagen a nuestra base de datos.
+| **firebase.service**|
+| ------------- |
+|![Screenshot](firebaseservices2.jfif) |
+
+### Páginas
+Los servicios que se mencionaron anteriormente, se estan utilizando por medio de las páginas: login y register, para el registro y el login de un usuario.
+| **Login y Register**|
+| ------------- |
+|![Screenshot](loginregister.jfif) |
+
+Home, newlist y details, donde tenemos todo con respecto al CRUD, en home mostramos toda la lista de ese usuario además de poder salir de su cuenta, el new list esta todo con respecto a la creación de una nueva lista y los permisos para poder cargar una imágen, y por ultimo details donde se encuentra el detalle de esa lista y podra borrar o actualizar la misma. 
+| **Login y Register**|
+| ------------- |
+|![Screenshot](pages.jfif) |
 
 ## Interfaces principales de la APP: :iphone:
 ### Icono y Splash Screen
