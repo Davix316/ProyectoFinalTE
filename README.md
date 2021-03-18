@@ -14,6 +14,19 @@
 - El usuario podrá acceder a los detalles de cada lista donde podrá eliminar y editar.
 - La APK de la aplicación esta firmada y desplegada en Google.
 ```
+## Responsabilidades
+| **Mi lista para comprar**|
+| ------------- |
+| Creación de la base de datos: David Curipoma |
+| Creación de los servicios: David Curipoma y Jhoel Amagua |
+| Creación de la autenticación: David Curipoma |
+| Creación de las páginas: David Curipoma y Jhoel Amagua |
+| Creación de las interfaces de visualización: Jhoel Amagua |
+| Creación del Icono y Splash Screen: Jhoel Amagua |
+| Creación de la APK y firma digital: Jhoel Amagua |
+| Carga de la APK a la tienda de aplicaciones: David Curipoma y Jhoel Amagua |
+| Creación de video y Readme explicactivos: David Curipoma y Jhoel Amagua |
+
 ## Partes Principales del código :wrench:
 ### Servicios
 Se crearon 2 servicios, el auth.service el cuál contiene todo lo relacionado con respecto a la autenticación: funciones resgister, login y logout.
