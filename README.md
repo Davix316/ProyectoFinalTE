@@ -1,5 +1,6 @@
 # Proyecto Final Tópicos Especiales
 ##  Integrantes: Amagua Jhoel - Curipoma David
+### Link del video en OneDrive: https://epnecuador-my.sharepoint.com/:v:/g/personal/jorge_amagua01_epn_edu_ec/ERmef_QkDp9Ls-g1bXL3AecBQLQ2WWl9Pd0BYsd4jUxqqw?e=A5AlnX 
 ### En el presente repositorio se encuentra el código del proyecto final realizado para la materia de Tópicos Especiales:
 
 ## APP: Mi lista para comprar
