@@ -12,9 +12,8 @@
 
 ## Partes Principales del código
 
-## Métodos principales de la APP
 
-## Interfaces principales de la APP
+## Interfaces principales de la APP:
 ### Icono y Splash Screen
 Ya que se creó y configuró un icono y un splash screen, al momento de instalar y arrancar la APP, aparecerán estas imágenes.
 
